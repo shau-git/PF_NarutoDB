@@ -1,0 +1,124 @@
+body {
+    /*background-image: url('https://narutodb.xyz/naruto-theme-background.jpg');
+    background-size: cover;*/
+    background: #141414;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    flex-direction: column;
+    font-family: 'Ninja Naruto', sans-serif;
+}
+.header {
+    display: flex;
+    /*background: linear-gradient(45deg, rgb(255, 140, 0), rgb(255, 69, 0));*/
+    top: 0;
+    left: 0;
+    right: 0;
+    /*height: 100px;*/
+    position: fixed;
+    justify-content: space-between;
+    /*align-items: center;*/
+    font-size: 30px;
+    color: white;
+    
+}
+.title {
+    margin-left: 8px;
+    
+    color: rgb(249 115 22);
+    
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.title:hover {
+    text-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+    transform: scale(1.15);
+}
+.title:active {
+    transform: scale(1.05)
+}
+.change-img-btn {
+    background-color: rgb(249 115 22);
+    font-family: 'Ninja Naruto', sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-right: 8px;
+    border: none;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    color: white;
+}
+.change-img-btn:hover {
+    box-shadow: 0 0 12px rgba(255, 165, 0, 0.7);
+    transform: scale(1.15);
+}
+.change-img-btn:active {
+    opacity: 0.7;
+    /*transition: none;*/
+}
+
+.get-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+p {
+    color: white;
+    /*font-family: 'Bangers', cursive;*/
+    font-family: 'Ninja Naruto', sans-serif;
+    font-size: 24px;
+}
+.naruto-img {
+    margin-top: -18px;
+    width: 290px;
+    height: 290px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    border: 3px solid rgba(255, 140, 0, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 69, 0, 0.5);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    
+}
+.naruto-img:hover {
+    transform: scale(1.10);
+    box-shadow: 0 0 25px rgba(255, 165, 0, 1);
+}
+.leaf-logo {
+    height: 3.5rem;
+    width: 3.5rem;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.get-started-btn {
+    background: linear-gradient(45deg, rgb(255, 140, 0), rgb(255, 69, 0));
+    padding: 18px 30px;
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+    box-shadow: 0 0 30px rgba(255, 165, 0, 1);
+    display: flex;
+    align-items: center;
+    color: white;
+    transition: all 0.3s ease; /*(every thing, tiiming, */
+    font-family: 'Ninja Naruto', sans-serif;
+    font-size: 18px;;
+}
+.get-started-btn:hover {
+    box-shadow: 0 0 18px 5px rgba(255, 165, 0, 0.4);
+    transform: scale(1.15); /*after hovering make all the thing in the btn 1.15 size bigger*/
+}
+.get-started-btn:hover .leaf-logo {
+    transform: rotate(20deg);
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,12 @@
+body {
+    /*https://wallpapercave.com/wp/wp2586886.jpg*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*background: url('https://wallpapercave.com/wp/wp7432584.jpg') no-repeat center center fixed;*/
+    background: url('../../imgRemedy/Akatsuki/akatsuki-1.jpg');
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100%;
+}

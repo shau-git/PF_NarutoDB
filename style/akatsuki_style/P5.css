@@ -1,0 +1,16 @@
+body {
+    /*https://wallpapercave.com/wp/wp6236209.jpg*/
+    background: url('../../imgRemedy/Akatsuki/akatsuki.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ninja Naruto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    height: 100vh;
+}

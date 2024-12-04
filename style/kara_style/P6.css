@@ -1,0 +1,17 @@
+body {
+    background: white url('../../imgRemedy/kara/P6.jpg') no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Ninja Naruto', sans-serif;
+    text-shadow: 2px 2px 5px black;
+    color: white;
+}
+/*../../imgRemedy/kara/P6.jpg*/
+/*https://preview.redd.it/gusi6zvvpeq81.jpg?width=1080&crop=smart&auto=webp&s=81541e6b6b4843becc3e8647cdd9776b02aebfe8*/
+

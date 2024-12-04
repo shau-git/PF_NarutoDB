@@ -1,0 +1,15 @@
+body {
+    background: /*rgb(255, 170, 0)*/ white url('../../imgRemedy/characters_img/P3/P3_Background.png') no-repeat; /* Darker yellow with a fiery tone */
+    background-size: 850px 850px cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Ninja Naruto', sans-serif;
+    text-shadow: 2px 2px 5px black;
+    color: white;
+}
+/*https://www.pngall.com/wp-content/uploads/13/Naruto-No-Background.png*/

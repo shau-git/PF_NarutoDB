@@ -1,0 +1,17 @@
+body {
+    /*https://wallpapercave.com/wp/wp7432584.jpg*/
+    background: url('../../imgRemedy/tailedBeast_img/nauto_kurama.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ninja Naruto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    height: 100vh;
+    background-color: white;
+}

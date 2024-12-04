@@ -1,0 +1,24 @@
+.left-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.audio-btn {
+    width: 90px;
+    font-family: 'Ninja Naruto', sans-serif;
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.80);
+    border: 1px solid red;
+    border-radius: 8px;
+    color: white;
+    transition: transform 0.3s ease;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.audio-btn:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 19px rgba(255, 0, 0, 0.99);
+}
+.audio-btn:active{
+    transform: scale(1);
+}
