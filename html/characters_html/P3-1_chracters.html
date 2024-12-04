@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Characters</title>
+    <link rel="shortcut icon" type="x-icon" href="../../imgRemedy/icons/Naruto-title-icon.png">
+    <link href="https://fonts.cdnfonts.com/css/ninja-naruto" rel="stylesheet">
+    <link rel="stylesheet" href="../../style/style/header.css">
+    <link rel="stylesheet" href="../../style/characters_style/P3-1_style.css">
+    <link rel="stylesheet" href="../../style/style/style-1.css">
+    <link rel="stylesheet" href="../../style/style/audio.css">
+    
+</head>
+<body>
+     
+    <div class="header">
+        <a class="header-title" href="../mainPage_html/P2_mainPage.html">Naruto World</a>
+        <div class="left-container">
+            <audio id="music-1" src="../../imgRemedy/audio/characters/naruto_shippuden_8.mp3"></audio>  
+            <audio id="music-2" src="../../imgRemedy/audio/characters/naruto_opening.mp3"></audio> 
+            <audio id="music-3" src="../../imgRemedy/audio/characters/toumei_datta_sekai.mp3"></audio> 
+            <audio id="music-4" src="../../imgRemedy/audio/characters/you_are_my_friend.mp3"></audio> 
+            <audio id="music-5" src="../../imgRemedy/audio/characters/naruto_final.mp3"></audio> 
+            <button class="audio-btn" onclick="sound('music-1')">Music-1</button>
+            <button class="audio-btn" onclick="sound('music-2')">Music-2</button>
+            <button class="audio-btn" onclick="sound('music-3')">Music-3</button>
+            <button class="audio-btn" onclick="sound('music-4')">Music-4</button>
+            <button class="audio-btn" onclick="sound('music-5')">Music-5</button>
+            <button class="audio-btn" onclick="stopSongs()">Stop</button>
+            <a href="./P3_characters.html">
+                <button class="back-btn">
+                    <p>Back</p>
+                    <img src="https://narutodb.xyz/leaf.png" alt="leaf logo" class="leaf-logo">
+                </button>
+            </a>
+        </div>
+    </div>
+    
+
+    <div class="container">    
+    </div>
+
+    
+   
+    <script src="../../script/scripts/remedy.js"></script>
+    <script src="../../script/scripts/data.js"></script>
+    <script src="../../script/scripts/render.js"></script>
+    <script src="../../script/scripts/fetchAll.js"></script>
+    <script src="../../script/characters_script/P3-1.js"></script>
+    <script src="../../script/scripts/quiz_music.js"></script>
+</body>
+</html>
