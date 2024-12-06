@@ -10,6 +10,8 @@ My project link [PF_Naruto_DB](https://shau-git.github.io/PF_NarutoDB/)
 My intention for the design of this app was to make it look like anime style and game. To achieve this, I searched the design ideas from youtube, google & [narutodb.xyz](https://narutodb.xyz/)
  which eventually led to the creation of this design. For a better experience, it is recommended to use the app on a laptop.
 
+ Figma [link](https://www.figma.com/design/YLlklQBC9YQ9IAwMBg3cC9/PF_Naruto_DB_BackUp?t=dpbw9AA7GxYjyvet-1) to view my design prototype.
+
 
 ## Features
 In this section will dive dip in all the details of each page and sections.
