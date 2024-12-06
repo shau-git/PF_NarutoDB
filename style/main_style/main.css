@@ -144,7 +144,7 @@ a {
 
 
 .btn {
-    background: linear-gradient(45deg, rgb(255, 140, 0), rgb(255, 69, 0))/*red*/;
+    background: rgba(255, 255, 255, 0.2) /*linear-gradient(45deg, rgb(255, 140, 0), rgb(255, 69, 0))*/;
     border-radius: 10px;
     border: none;
     color: white;
