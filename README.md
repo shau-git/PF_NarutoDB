@@ -4,7 +4,8 @@ This NarutoDB app provides a comprehensive database of the characters from Narut
 Each sections offer every character's profile , the ability to seacrh by name , a mini game where you can draw a card, and a small quiz. Furthermore, to make this app even more enjoyable, sound effects and images are also included. User can click to explore surprises!. Hope you enjoy using this app.
 
 ## Design Process
-My intention for the design of this app was to make it look like anime style and game. To achieve this, I searched the design ideas from youtube and google which eventually led to the creation of this design.
+My intention for the design of this app was to make it look like anime style and game. To achieve this, I searched the design ideas from youtube, google & [narutodb.xyz](https://narutodb.xyz/)
+ which eventually led to the creation of this design. For a better experience, it is recommended to use the app on a laptop.
 
 
 ## Features
@@ -37,7 +38,8 @@ In this section will dive dip in all the details of each page and sections.
 1. __GET ALL PROFILE__:
     - Display the profiles and information for all characters.Note that some charcters's images are not available in the API or online.
     - When click and hold in each character's profile will rotate 360 degrees.
-    - __'MUSIC-X'__ button offers different audio tracks to make it not boring(only available in CHARACTERS section).  __'STOP'__ button to stop the audio.
+    - __'MUSIC-X'__ button offers different audio tracks to make it not boring , __'STOP'__ button to stop the audio.(only available in CHARACTERS section).
+    - **NOTICE** : When browsing you may see a 404 error for the images in the console. Please ignore it, as it has already been addressed.
 2. __SEACRH BY NAME__ :
     - **NOTICE** : TAILED BEAST section does not have this..
     - This sections allows user to seacrh characters by name. User must input the exact name (upper/lower case does not matter) that appears in  **_'GET ALL PROFILE'_**, else the browser will trigger alert "No character found! Try inputing the exact name." .
@@ -46,7 +48,7 @@ In this section will dive dip in all the details of each page and sections.
     - The menu button is available to display a sidebar with available name in in  alphabetical order, if no name is found under a particular letter, "NA" will be displayed.
     - To close the sidebar, click the left arrow at the top left corner in the sidebar.
 4. __DRAW A CARD__:
-    - Clicking the **_DRAW_** button will randomly display a charater's image , id & name. Click again to draw another one.
+    - Clicking the **_'DRAW'_** button will randomly display a charater's image , id & name. Click again to draw another one.
 5. __QUIZ__:
     - Some simple quizzes.
     - Besides the **_'BACK'_** button have some theme music button.
@@ -54,22 +56,41 @@ In this section will dive dip in all the details of each page and sections.
 
 
 ## Technologies Used
-This project is constructed by using HTML, CSS & Javascript, no frameworks.
+This project is constructed by using HTML, CSS & Javascript.
 The Naruto fonts is from [ninja-naruto](https://fonts.cdnfonts.com/css/ninja-naruto)
+
+
+
+## Testing
+A significant number of images provided by the API result in 404 errors. To solve this, I manually reviewed all the failed image links and tested them one by one, By trying to remove the parameters from the link or changing the case of the metadata, I found that the images load correctly. For Example: 
+
+         
+- Before :
+
+  
+ `https://static.wikia.nocookie.net/naruto/images/0/0a/H%C5%8Dsei.JPG/revision/latest?cb=20150807085240`
+
+         
+- After :
+
+  
+ `https://static.wikia.nocookie.net/naruto/images/0/0a/H%C5%8Dsei.JPG`
+
+
 
 
 
 ## Credits
 
 ### Content
-- quote from Pain was copied from [Pain's quote](https://www.sportskeeda.com/anime/naruto-10-best-quotes-pain-ranked-influence)
-- quote from Obito/Kakashi was copied from [Obito&Kakashi](https://www.goodreads.com/quotes/625043-n-the-world-those-who-break-the-rules-are-scum)
+- quote from Pain in Main Page was copied from [Pain's quote](https://www.sportskeeda.com/anime/naruto-10-best-quotes-pain-ranked-influence)
+- quote from Obito/Kakashi Main Page was copied from [Obito&Kakashi](https://www.goodreads.com/quotes/625043-n-the-world-those-who-break-the-rules-are-scum)
 
 ### Media and audio
-  - All the photos used in this project are from Google and Pinterest , audio are from Zedge
+- All of the photos used in this project were obtained from Google, Pinterest & [narutodb.xyz](https://narutodb.xyz/), all audio were downloaded from Zedge
     
-### Acknowledgements
-The API source for this project [narutodb.xyz](https://narutodb.xyz/)
+## Acknowledgements
+- The API source for this project [narutodb.xyz](https://narutodb.xyz/)
 
 
 
