@@ -38,7 +38,7 @@ In this section will dive dip in all the details of each page and sections.
     - These are the sections where all the informations is located. access each section, you'll find __'NARUTO WORLD'__ (which takes you back to the main page, i.e., the second page) and __'BACK'__ (which takes you back to the previous page). Additional features will be explained below.
 
 
-### CHARCTERS, TAILED BEAST, AKASTUKI, KARA
+### CHARCTERS, TAILED BEAST, AKATSUKI, KARA
 
 1. __GET ALL PROFILE__:
     - Display the profiles and information for all characters.Note that some charcters's images are not available in the API or online.
