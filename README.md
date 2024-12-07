@@ -1,7 +1,7 @@
 # PF_NarutoDB 
 This NarutoDB app provides a comprehensive database of the characters from Naruto (and Boruto), organized into in sections: Characters, Tailed Beasts, Team Akatsuki & Team Kara. It is defenitely a great resource for all Naruto's fans. With this app, you can easily access detailed information about each character including their name, appearance, personality, jutsus and Ninja tools. 
 
-Each sections offer every character's profile , the ability to seacrh by name , a mini game where you can draw a card, and a small quiz. Furthermore, to make this app even more enjoyable, sound effects and images are also included. User can click to explore surprises!. Hope you enjoy using this app.
+Each sections offer every character's profile , the ability to seacrh by name , a mini game where you can draw a card, and a small quiz. Furthermore, to make this app even more enjoyable, sound effects (the longest one is 30 seconds) and images are also included. User can click to explore surprises!. Hope you enjoy using this app.
 
 
 My project link [PF_Naruto_DB](https://shau-git.github.io/PF_NarutoDB/)
