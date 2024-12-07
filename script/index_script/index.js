@@ -20,6 +20,9 @@ const images = [
     "./imgRemedy/index/Naruto-7.png"
 ]
 
+
+
+//when clicking 'change image' button
 let clickCount = 0;
 document.querySelector('.change-img-btn').addEventListener('click', () => {
     stopSongs()
@@ -33,6 +36,8 @@ document.querySelector('.change-img-btn').addEventListener('click', () => {
 })
 
 
+
+//when clicking the image
 document.querySelector('.naruto-img').addEventListener('click', () => {
     stopSongs()
     document.getElementById('switching').play()
@@ -43,6 +48,8 @@ document.querySelector('.naruto-img').addEventListener('click', () => {
     }
 })
 
+
+// fucntion to stop the song when clicking another audio button
 const sounds =['change-img-btn', 'switching','dattebayo','kagebunshin','fuuton','oodama']
 function stopSongs() {
     sounds.forEach( sound => {
@@ -53,6 +60,9 @@ function stopSongs() {
 }
 
 
+
+//when clicking 'NARUTO BD' , reason i = 2 is because in the sounds variable above i only want the 'dattebayo' onwards
+// i just mix all the soundsID into one list 
 let i = 2;
 document.getElementsByClassName('title')[0].addEventListener('click', ()=> {
     stopSongs()
