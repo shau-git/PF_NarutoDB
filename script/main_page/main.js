@@ -106,8 +106,9 @@ document.querySelector('.header-title').addEventListener('click', () => {
     if (clickCount > 18) {
         clickCount = 0
     }
+
+    // after each click remove all the previous display
     reset()
-    //renderImage(data[clickCount].images)
     document.querySelector('.cover-img').src= `${data[clickCount].images}`
     if (data[clickCount].sounds) {
         createAudio(data[clickCount].sounds)
@@ -120,12 +121,15 @@ document.querySelector('.header-title').addEventListener('click', () => {
     clickCount += 1;
 })
 
+//rendering the image
 function renderImage(data) {
     const image = document.createElement('img')
     image.classList.add('cover-img')
     image.src = data
 }
 
+
+//create audio
 function createAudio(sounds) {
     let i = 0;
     sounds.forEach(sound => {
@@ -137,6 +141,8 @@ function createAudio(sounds) {
     })
 }
 
+
+//creating  button to play the sounds
 function soundBtn(soundsId) {
     soundsId.forEach(sound => {
         const btn = document.createElement('button')
@@ -168,6 +174,8 @@ function createQuote(quotes) {
 }
 
 
+
+
 function reset() {
     const quote = document.getElementById('quote');
     const audio = document.getElementById('sound-btn-container')
@@ -185,6 +193,7 @@ function reset() {
 }
 
 
+//this function is only used just for when loading the page for the sound button
 function sound() {
     document.getElementById('infinite-tsukuyomi').play()
 }
