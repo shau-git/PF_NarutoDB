@@ -4,7 +4,7 @@ This NarutoDB app provides a comprehensive database of the characters from Narut
 Each sections offer every character's profile , the ability to seacrh by name , a mini game where you can draw a card, and a small quiz. Furthermore, to make this app even more enjoyable, sound effects (the longest one is 30 seconds) and images are also included. User can click to explore surprises!. Hope you enjoy using this app.
 
 
-My project link [PF_Naruto_DB](https://shau-git.github.io/PF_NarutoDB/)
+My project link <a href="https://shau-git.github.io/PF_NarutoDB/" target="_blank">PF_Naruto_DB</a>
 
 ## Design Process
 My intention for the design of this app was to make it look like anime style and game. To achieve this, I searched the design ideas from youtube, google & [narutodb.xyz](https://narutodb.xyz/)
