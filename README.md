@@ -44,6 +44,7 @@ In this section will dive dip in all the details of each page and sections.
     - Display the profiles and information for all characters.Note that some charcters's images are not available in the API or online.
     - When click and hold in each character's profile will rotate 360 degrees.
     - __'MUSIC-X'__ button offers different audio tracks to make it not boring , __'STOP'__ button to stop the audio.(only available in CHARACTERS section).
+    - ---**_IMPORTANT_**--- : Please lower down the volume before playing the audio.
     - **NOTICE** : When browsing you may see a 404 error for the images in the console. Please ignore it, as it has already been addressed.
 2. __SEACRH BY NAME__ :
     - **NOTICE** : TAILED BEAST section does not have this..
@@ -95,7 +96,8 @@ A significant number of images provided by the API result in 404 errors. To solv
 - All of the photos used in this project were obtained from Google, Pinterest & [narutodb.xyz](https://narutodb.xyz/), all audio were downloaded from Zedge
     
 ## Acknowledgements
-- The API source for this project [narutodb.xyz](https://narutodb.xyz/)
+- The API source for this project [dattebayo](https://api-dattebayo.vercel.app/docs#get-all-items)
+- **Note** (It was using [narutodb.xyz](https://narutodb.xyz/), but the website not providing the service anymore.)
 
 
 
