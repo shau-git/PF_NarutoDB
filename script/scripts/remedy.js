@@ -1,5 +1,5 @@
 
-// some images that not under image property
+// some images that are not under image property
 function remedyImg2() {
     const id_140 = document.querySelector('[data-char-id="140"] li');
     const id_357 = document.querySelector('[data-char-id="357"] li')

@@ -1,5 +1,7 @@
+//'https://narutodb.xyz/api/kara?limit=32';
+
 //render sidebar
-const allKara = 'https://narutodb.xyz/api/kara?limit=32';
+const allKara = 'https://dattebayo-api.onrender.com/kara?limit=32'
 const target = 'kara';
 
 fetch1(allKara,target).then(character => renderSidebar(character))

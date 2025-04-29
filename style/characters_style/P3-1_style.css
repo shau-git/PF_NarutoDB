@@ -11,5 +11,6 @@ body {
     margin-bottom: 0;
     margin: 0;
     height: 100%;
-    padding-top: 26px;
+    overflow-x: auto;
+    /*padding-top: 26px;*/
 }

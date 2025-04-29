@@ -1,8 +1,8 @@
 async function fetch_id(id,target) {
-     
+     //`https://narutodb.xyz/api/${target}/${id}`
     let reqOptions = {
         method: 'GET',
-        url: `https://narutodb.xyz/api/${target}/${id}`,
+        url: `https://dattebayo-api.onrender.com/${target}/${id}`,
         headers: {
             accept: 'application/json'
         }

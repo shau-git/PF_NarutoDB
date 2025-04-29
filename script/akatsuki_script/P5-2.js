@@ -1,5 +1,7 @@
+//'https://narutodb.xyz/api/akatsuki?limit=44';
+
 //render sidebar
-const akaAll = 'https://narutodb.xyz/api/akatsuki?limit=44';
+const akaAll = 'https://dattebayo-api.onrender.com/akatsuki?limit=44'
 const target = 'akatsuki';
 
 fetch1(akaAll,target).then(character => renderSidebar(character))

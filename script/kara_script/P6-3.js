@@ -1,4 +1,4 @@
-const allKara = 'https://narutodb.xyz/api/kara?limit=32'
+const allKara = 'https://dattebayo-api.onrender.com/kara?limit=32'
 
 document.querySelector('.draw-btn').addEventListener('click', () => {
     let id =  Math.floor(Math.random() *  1430) //0 <= x < 1430

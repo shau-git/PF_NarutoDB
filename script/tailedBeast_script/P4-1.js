@@ -4,8 +4,10 @@ import {remedyImg} from '../scripts/data.js'
 import {fetch1,printObject} from '../scripts/render.js'
 */
 
-const tailedBeasts = 'https://narutodb.xyz/api/tailed-beast'
-fetch1(tailedBeasts,'tailedBeasts').then(character => {
+//'https://narutodb.xyz/api/tailed-beast' //'tailedBeasts'
+const tailedBeasts = 'https://dattebayo-api.onrender.com/tailed-beasts?12'
+
+fetch1(tailedBeasts,'tailed-beasts').then(character => {                                                   
                                                 const html = printObject(character)
                                                 /*if (character[6]['jutsu'].status === 404) {
                                                     console.log('calling remedy')
