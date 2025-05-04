@@ -46,7 +46,7 @@ In this section will dive dip in all the details of each page and sections.
     - __'MUSIC-X'__ button offers different audio tracks to make it not boring , __'STOP'__ button to stop the audio.(only available in CHARACTERS section).
     - ---**_IMPORTANT_**--- : Please lower down the volume before playing the audio.
     - **NOTICE** : When browsing you may see a 404 error for the images in the console. Please ignore it, as it has already been addressed.
-2. __SEACRH BY NAME__ :
+2. __SEACRH BY NAME__ (--THIS SECTION IS UNAVAILABLE, THE NEW ENDPOINT DOES NOT PROVIDE THIS SERIVCE--): 
     - **NOTICE** : TAILED BEAST section does not have this..
     - This sections allows user to seacrh characters by name. User must input the exact name (upper/lower case does not matter) that appears in  **_'GET ALL PROFILE'_**, else the browser will trigger alert "No character found! Try inputing the exact name." .
     - All the seacrching name have to match those appear in their __'GET ALL PROFILE'__ . For example: Itachi Uchiha is an AKATSUKI member, so he will not appear in KARA & TAILED BEAST profiles. Seacrhing Itachi Uchiha in either of those will trigger alert "No character found! Try inputing the exact name." , unless searching  it in CHARACTERS section.
