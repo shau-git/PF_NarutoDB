@@ -95,7 +95,7 @@ A significant number of images provided by the API result in 404 errors. To solv
 ### Media and audio
 - All of the photos used in this project were obtained from Google, Pinterest & [narutodb.xyz](https://narutodb.xyz/), all audio were downloaded from Zedge
     
-## Acknowledgements
+### Acknowledgements
 - The API source for this project [dattebayo](https://api-dattebayo.vercel.app/docs#get-all-items)
 - **Note** (It was using [narutodb.xyz](https://narutodb.xyz/), but the website not providing the service anymore.)
 
