@@ -7,7 +7,7 @@ Each sections offer every character's profile , the ability to seacrh by name , 
 My project link [PF_Naruto_DB](https://shau-git.github.io/PF_NarutoDB/)
 
 ## Design Process
-My intention for the design of this app was to make it look like anime style and game. To achieve this, I searched the design ideas from youtube, google & [narutodb.xyz](https://narutodb.xyz/)
+My intention for the design of this app was to make it look like anime style and game. To achieve this, I searched the design ideas from youtube, google
  which eventually led to the creation of this design. For a better experience, it is recommended to use the app on a laptop.
 
  Figma [link](https://www.figma.com/design/YLlklQBC9YQ9IAwMBg3cC9/PF_Naruto_DB_BackUp?t=dpbw9AA7GxYjyvet-1) to view my design prototype.
@@ -93,11 +93,10 @@ A significant number of images provided by the API result in 404 errors. To solv
 - quote from Obito/Kakashi Main Page was copied from [Obito&Kakashi](https://www.goodreads.com/quotes/625043-n-the-world-those-who-break-the-rules-are-scum)
 
 ### Media and audio
-- All of the photos used in this project were obtained from Google, Pinterest & [narutodb.xyz](https://narutodb.xyz/), all audio were downloaded from Zedge
+- All of the photos used in this project were obtained from Google, Pinterest &  all audio were downloaded from Zedge
     
 ### Acknowledgements
 - The API source for this project [dattebayo](https://api-dattebayo.vercel.app/docs#get-all-items)
-- **Note** (It was using [narutodb.xyz](https://narutodb.xyz/), but the website not providing the service anymore.)
 
 
 
